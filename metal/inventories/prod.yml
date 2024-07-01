@@ -7,7 +7,7 @@ metal:
   children:
     masters:
       hosts:
-        naus0: {ansible_host: 192.168.1.110, mac: '54:bf:64:a0:4b:29', disk: lvm, network_interface: eno2}
+        naus0: {ansible_host: 192.168.1.110, mac: '54:bf:64:a0:4b:29', disk: nvme0n1, network_interface: eno2}
     #workers:
     #  hosts:
     #    metal3: {ansible_host: 192.168.1.113, mac: '00:23:24:d1:f4:d6', disk: sda, network_interface: eno1}
