@@ -64,7 +64,7 @@
       dest: "{{ k3s_service_file }}"
 
 - name: Copy kube-vip manifests
-  when: "'masters' in group_names"
+  when: "'servers' in group_names"
   ansible.builtin.template:
     src: "{{ item.src }}"
     dest: "{{ item.dest }}"

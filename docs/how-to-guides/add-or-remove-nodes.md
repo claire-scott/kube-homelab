@@ -8,7 +8,7 @@ Or how to scale vertically. To replace the same node with a clean OS, remove it 
 
     You can add multiple nodes at the same time
 
-Add its details to the inventory **at the end of the group** (masters or workers):
+Add its details to the inventory **at the end of the group** (servers or agents):
 
 ```diff title="metal/inventories/prod.yml"
 diff --git a/metal/inventories/prod.yml b/metal/inventories/prod.yml

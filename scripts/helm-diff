@@ -54,7 +54,7 @@ def main():
     parser = ArgumentParser(description='Compare Helm charts in a directory between two Git revisions.')
     parser.add_argument('--repository', required=True, help='Repository to clone')
     parser.add_argument('--source', required=True, help='Source branch (e.g. pull request branch)')
-    parser.add_argument('--target', required=True, help='Target branch (e.g. master branch)')
+    parser.add_argument('--target', required=True, help='Target branch (e.g. main branch)')
     parser.add_argument('--subpath', required=True, help='Subpath containing the charts (e.g. system)')
 
     args = parser.parse_args()
